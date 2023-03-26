@@ -4,15 +4,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
 @RestController
-@RequestMapping("/v1/api")
-public class WelcomeController {
+@RequestMapping("/v1/api/auth/balance")
+public class BalanceController {
 
-    @GetMapping("/welcome")
-    public String sayWellcome() {
-        return "Hi ! welcome";
+    @GetMapping("/total")
+    public String getTotalBalance() {
+        return "$1000";
     }
-    
-    
+
 }
