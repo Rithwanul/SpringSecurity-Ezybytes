@@ -18,8 +18,18 @@ dependencies {
   testImplementation 'org.springframework.boot:spring-boot-starter-test'
   testImplementation 'org.springframework.security:spring-security-test'
 
-  // https://mvnrepository.com/artifact/org.springframework.security/spring-security-core
-  //implementation group: 'org.springframework.security', name: 'spring-security-core', version: '6.0.1'
+  // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jdbc
+  implementation group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '3.0.5'
+
+  // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+  implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.32'
+
+  // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
+  implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '3.0.5'
+
+  // https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp
+  implementation group: 'commons-dbcp', name: 'commons-dbcp', version: '1.4'
+
 
 }
 
